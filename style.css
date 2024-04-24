@@ -1,53 +1,146 @@
-body{
-    margin-top:60px;
+*{
+    margin:0px;
     padding:0px;
-    border:0px;
 }
-div{
-    background-color:antiquewhite;
-    width:25%;
-    padding:5px;
-    border: solid black;
-    border-radius:30px;
-    padding-bottom: 20px;
-    flex-wrap:wrap;
-    justify-content:space-around;
-    flex-basis: 20%;
+
+/*HEADER*/
+#top{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    align-items: center;
+    background-color:rgb(41, 40, 40);
+    display: flex;
+    color: rgb(0, 0, 0);
+    padding: 0px 3%;
+    margin-right: 0px;
+    margin: 0px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom:4px;
+    border-style: groove;
 }
-h1{
+.logo{
+    cursor:pointer;
+    padding:8px;
+    margin-right: auto;
+}
+.butt{
+    font-weight: 900px;
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+    padding:6px;
+    cursor:pointer;
+    display: inline-block;
+    background-color: rgb(179, 179, 179);
+    border-radius: 50px;
+    border:none;
+}
+nav ul li{
+    color:white;
+    display: inline-block;
+    padding: 17px;
+    font-weight: 900px;
+    font-size: 20px;
+    cursor:pointer;
+    text-decoration: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+nav ul li a:hover,.butt:hover{
+    color: rgb(255, 255, 255);
+    transition: all 0.3s ease 0s;
+}
+
+/*Main*/
+/*WELCOME & IMAGE*/
+.welcomeout{
+    background-color: rgb(236, 233, 233);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-right: 5px;
+    border-left: 5px;
+    border-style:groove ;
+}
+.welcomein{
+    background-color: rgb(236, 233, 233);
+    color: black;
+    width: 700px;
+    padding:50px;
+    padding-left: 100px;
+    padding-top: 100px;
+}
+.welcomein h1{
     text-align: center;
-}
-input{
-    height:50px;
-    width:90%;
-    margin:10px; 
-    border-radius: 10px;
-    text-align: end;
     font-size: 40px;
 }
-button{
-    background-color: rgb(202, 194, 194);
-    width:70px;
-    height:70px;
-    margin:1px;
-    border-radius: 20px;
-    cursor: pointer;
+.welcomein p{
+    /*text-align: center;*/
+    font-size: 25px;
+}
+.welcomein h2{
     text-align: center;
-    font-size: 23px;
+    font-size: 25px;
 }
-button:hover{
-    background-color: rgb(241, 226, 226);
+.welcomeout img{
+    height: 400px;
 }
-button.ac{
-    background-color:rgb(255, 145, 145);
+
+/*COURSES*/
+.out{
+    background-color: rgb(236, 233, 233);
+    height:500px;
+    border-style:groove ;
+    padding: 5px;
+    padding-bottom: 9px;
+} 
+.titlebar{
+    text-align: center;
+    padding: 5px;
 }
-button.de{
-    color:rgb(216, 33, 33);
+.in{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
-button.percent,button.div,button.mul,button.sub,button.add{
-    color: rgba(2, 152, 179, 0.842);
+.in div{
+    padding:5px;
+    background-color: rgb(230, 247, 247);
+    height: 200px;
+    width: 270px;
+    margin: 7px;
+    flex-basis: 22%;
+    border: 3px;
+    border-style: ridge;
 }
-button.out{
-    background-color:rgb(155, 250, 155);
-    font-style: strong;
+.inh{
+    text-align: center;
+}
+.in div ul{
+    font-size: 20px;
+    list-style-type:square;
+    text-align: left;
+    padding-left: 28%;
+    margin:2px;
+}
+
+/*FOOTER*/
+.fout{
+    background-color: black;
+    color: white;
+    padding: 15px;
+}
+.fout h1{
+    text-align: center;
+}
+.fout h3{
+    text-align: center;
+}
+.fout p{
+    font-size: 25px;
+    text-align: center;
 }

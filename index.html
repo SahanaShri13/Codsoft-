@@ -1,36 +1,126 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Calculator-home</title>
+        <title>SL Academy</title>
         <link rel="stylesheet" href="style.css">
     </head>
+
     <body>
-        <center>
-            <div>
-                <h1>CALCULATOR</h1>
-                <input type="text" placeholder="0" id="displaybox"/>
-                <button onclick="cleardisplay()" class="ac">AC</button>
-                <button onclick="del()" class="de">Del</button>
-                <button onclick="display('%')" class="percent">%</button>
-                <button onclick="display('/')" class="div">/</button>
-                <button onclick="display(7)">7</button>
-                <button onclick="display(8)">8</button>
-                <button onclick="display(9)">9</button>
-                <button onclick="display('*')" class="mul">*</button>
-                <button onclick="display(4)">4</button>
-                <button onclick="display(5)">5</button>
-                <button onclick="display(6)">6</button>
-                <button onclick="display('-')" class="sub">-</button>
-                <button onclick="display(1)">1</button>
-                <button onclick="display(2)">2</button>
-                <button onclick="display(3)">3</button>
-                <button onclick="display('+')" class="add">+</button>
-                <button onclick="display(0)">0</button>
-                <button onclick="display('00')">00</button>
-                <button onclick="display('.')">.</button>
-                <button onclick="calculate('=')" id="eq" class="out">=</button> 
-              </div>
-        </center>
+        <header id="top">
+            <img src="Logo.png" alt="logo" height="55px" width="200px" class="logo"/>
+            <nav>
+                <ul>
+                    <li><a href="/home">Home</a></li>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/courses">Courses</a></li>
+                </ul>
+            </nav>
+            <button class="butt">Register</button>
+        </header>
+
+        <main>
+            <div class="welcomeout">
+                <div class="welcomein">
+                    <h1>WELCOME!</h1>
+                    <p>SoftLearn Academy is place for learning various Software tools that provides 100+ courses with certifications and helps you to boost your carrer by acquiring knowledge in various domains and enhance your quality of being.</p>
+                    <h2>AWARE! ASPIRE! ACHIEVE!</h2>
+                </div>
+                <img src="ic1.png" alt="image">
+            </div>
+
+            
+
+            <!--COURSES-->
+            <div class="out">
+                <h1 class="titlebar">Courses offered</h1>
+                <div class="in">
+                    <div>
+                        <h1 class="inh">Progamming</h1>
+                        <ul>
+                            <li>C</li>
+                            <li>C++</li>
+                            <li>Python</li>
+                            <li>Java</li>
+                            <li>R</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h1 class="inh">Front End Development</h1>
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                            <li>Advanced Frontend</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h1 class="inh">Devops</h1>
+                        <ul>
+                            <li>Devpos from basics</li>
+                            <li>Kubernetes</li>
+                            <li>Docker</li>
+                            <li>WordPress with Docker</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h1 class="inh">UI/UX Design</h1>
+                        <ul>
+                            <li>UI Design</li>
+                            <li>UX Design</li>
+                            <li>Web Design</li>
+
+                        </ul>
+                    </div>
+                    <div>
+                        <h1 class="inh">DataBase Management System</h1>
+                        <ul>
+                            <li>DBMS</li>
+                            <li>MySQL</li>
+                            <li>Oracle SQL</li>
+                            <li>NOSQL</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h1 class="inh">Cloud Computing</h1>
+                        <ul>
+                            <li>Cloud Computing</li>
+                            <li>IOT</li>
+                            <li>AWS</li>
+                            <li>Azure</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h1 class="inh">Artificial Intelligence</h1>
+                        <ul>
+                            <li>Deep Learning</li>
+                            <li>Data Analytics</li>
+                            <li>Data Science</li>
+                            <li>Neural Networks</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h1 class="inh">Cyber Security</h1>
+                        <ul>
+                            <li>Cyber Security</li>
+                            <li>Ethical Hacking</li>
+                            <li>Network Security</li>
+                            <li>Cryptography</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+
+        <footer>
+            <div class="fout">
+                <p>To know further more details about courses offered please click on the 'course' icon on the header. <br> For any queries please contact us on anytime or you may also visit our branches.</p>
+                <h1>Contact</h1>
+                <h3>GMAIL: slacademycontact@gmail.com</h3>
+                <h3>Phone: 041-45678 45678</h3>
+                <h1>Location</h1>
+                <h3>MAIN OFFICE: 2/57 S5,Tech Street,Tambaram,Chennai</h3> 
+            </div>
+        </footer>
     </body>
-    <script src="script.js"></script>
 </html>
